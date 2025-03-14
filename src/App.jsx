@@ -1,9 +1,15 @@
-import React from 'react'
-import './App.css'
-import HomePage from './pages/homePage'
+import React from 'react';
+import './App.css';
+import HomePage from './pages/HomePage';
+import Form from './components/form';
 
 function App() {
-   return <HomePage/>
+   return (
+      <div>
+         <HomePage />
+         <Form />
+      </div>
+   );
 }
 
-export default App
+export default App;
