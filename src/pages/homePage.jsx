@@ -1,4 +1,4 @@
-import Home from '../components/home';
+import Home from '../components/home.jsx';
 
 export default function HomePage() {
   return (
@@ -7,4 +7,3 @@ export default function HomePage() {
     </div>
   );
 }
-
